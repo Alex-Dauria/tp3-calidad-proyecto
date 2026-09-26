@@ -8,6 +8,7 @@
     "test": "node run-tests.js"
   },
   "devDependencies": {
+    "c8": "^12.0.0",
     "eslint": "^10.11.0",
     "prettier": "^3.9.9"
   }
