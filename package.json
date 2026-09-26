@@ -1,0 +1,14 @@
+{
+  "name": "tp3-calidad-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "test": "node run-tests.js"
+  },
+  "devDependencies": {
+    "eslint": "^10.11.0",
+    "prettier": "^3.9.9"
+  }
+}
