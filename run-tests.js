@@ -31,7 +31,7 @@ test("200 puntos es Plata", () => {
   assertEqual(evaluarDescuento(200), "Plata", "deberia ser Plata");
 });
 
-test("1000 puntos es Oro (bug introducido a proposito)", () => {
+test("1000 puntos es Oro", () => {
   assertEqual(evaluarDescuento(1000), "Oro", "deberia ser Oro");
 });
 
